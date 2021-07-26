@@ -26,6 +26,7 @@ This project is the first deep learning project. I used Keras and TensorFlow to 
 總共使用了十種數據，其中身高、體重、投籃命中率、三分命中率、平均得分、平均籃板、平均助攻、抄截、阻攻等九種數據做為輸入參數，而球員所屬位置則作為 Groundtruth。
 
 由於輸入參數的尺度不同，可能會使得參數的重要性有所差異，為了防止 overfitting 的情況發生，將輸入數據做了standardize，先將每個輸入變數x減去樣本平均數，再除以樣本標準差，如公式1，使輸入資料的平均值為0，標準差為1。
+
 ![](https://i.imgur.com/eu3lzBF.png)
 
 過程中我們發現有些樣本可信度較低，其原因為上場時間太少導致數據波動過大，例如：命中率為百分之百；數據皆為零的狀況，這些情況應當不考慮，所以我們將其剃除。
