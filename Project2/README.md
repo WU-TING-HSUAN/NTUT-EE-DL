@@ -1,4 +1,4 @@
-# NTUT-EE-ML-Project 2
+# NTUT-EE-DL-Project 2
 
 
 # :orange_book: 基於 LSTM 每月入境人口預測
