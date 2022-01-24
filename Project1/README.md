@@ -1,4 +1,4 @@
-# NTUT-EE-ML-Project 1
+# NTUT-EE-DL-Project 1
 
 # :orange_book: 基於Feedforward-Neural-Network預測籃球員位置
 
